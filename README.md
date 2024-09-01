@@ -1,5 +1,2 @@
-# React foundations
-    BASICS
-
-# Histroey of react
-    PACKAGES IN REACT
+# React Elements and JSX
+    BASICS PART 2
