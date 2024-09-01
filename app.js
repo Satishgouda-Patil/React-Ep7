@@ -1,20 +1,49 @@
 import React from "react";
 var reactDom=require("react-dom/client");
+//jsx
+const jsx=(
+        <div>
+            <h2>Hello</h2>
+            <ul>
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+                <li>list4</li>
+            </ul>
+            <table>
+                <thead>
+                    <td> data 1 </td>
+                    <td> data 2 </td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>value 1</td>
+                        <td>value 2</td>
+                    </tr>
+                    <tr>
+                        <td>value 1</td>
+                        <td>value 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    )
 
-const insert=React.createElement("div",{className:"parent"},[
-    React.createElement("h1",{className:"text"},"this text 1"),
-    React.createElement("h2",{className:"text"},"this text 2"),
-    React.createElement("div",{className:"subroot"},[
-        React.createElement("p",{className:"text"},[
-            React.createElement("h3",{},"welcome to react 🚀❤️"),
-            React.createElement("h4",{},"it's just a biginning 🤨")
-        ]),
-    ]),
-   ]
 
+//creating element in react using function way 
+//Note: name should begin with caps
+const data=1000;
+const Title=() => (
+    <h1>headline 1</h1>
 )
-const root=reactDom.createRoot(document.getElementById("root"));
-const root2=reactDom.createRoot(document.getElementById("root2"));
+const ReactEle= () => (
+    <div>
+        {<Title/>}
+        <h1>hi</h1>
+    </div>
+)
 
-root.render(insert);
-root2.render(insert);
+console.log(ReactEle)
+const root=reactDom.createRoot(document.getElementById("root"));
+
+root.render(<ReactEle/>)
