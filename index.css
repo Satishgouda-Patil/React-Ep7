@@ -1,0 +1,25 @@
+#root2,#root{
+    padding: 2rem;
+    background-color: rgba(204, 125, 21, 0.707);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem;
+    border-radius: 2rem;
+    float:right;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+.subroot{
+    color: white;
+    background-color: rgba(0, 251, 255, 0.681);
+    padding: 3rem;
+    border-radius: 1rem;
+}
