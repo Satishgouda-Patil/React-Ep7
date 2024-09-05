@@ -1,25 +1,72 @@
-#root2,#root{
-    padding: 2rem;
-    background-color: rgba(204, 125, 21, 0.707);
-    width: 50%;
-    height: 50%;
+.NavBar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
     align-items: center;
-    margin: 6rem;
-    border-radius: 2rem;
-    float:right;
+    justify-content: space-between;
 }
-body{
+.NavBar ul{
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    /* border: 2px solid black; */
 }
-.subroot{
-    color: white;
-    background-color: rgba(0, 251, 255, 0.681);
-    padding: 3rem;
+.NavBar ul li{
+    padding: 3px;
+}
+.NavBar ul li:hover{
+    transition:1000ms;
+    background-color: rgba(147, 138, 138, 0.547);
+    text-decoration:underline;
     border-radius: 1rem;
+}
+.NavBar  li{
+    margin-left: 3rem;
+}
+
+.NavBar h4{
+    font-style: oblique;
+    font-size: x-large;
+    color: rgb(24, 25, 25);
+}
+.search{
+    display: flex;
+    border: 2px solid black;
+    margin: 0 2rem;
+    margin-right:5rem ;
+    border-radius: 12px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    border-style: none;
+    margin-left: 0%;
+    font-size: 1rem;
+}
+
+
+.card{
+   width: 18rem;
+   margin: 0 2rem 1rem ;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.886);
+    padding: 20px;
+}
+.search-icon{
+    font-size: 1rem;
+    margin-top: 3px;
+}
+.imgLogo{
+    width: 3rem;
+    height: 4rem;
+    border-radius: 5rem 5rem 3rem 3rem;
+    padding: 0.4rem;
 }

@@ -1,2 +1,2 @@
-# React Elements and JSX
-    BASICS PART 2
+# Learning with project
+    FOOD ORDERING APP
