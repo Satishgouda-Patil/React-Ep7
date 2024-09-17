@@ -3,7 +3,6 @@ var reactDom=require("react-dom/client");
 import NavBar from "./components/NavBar";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
-
 const AppLayout=()=>{
     return (
         <div className="app">
