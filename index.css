@@ -91,3 +91,34 @@
     margin: 1rem;
     margin-left: 13rem;
 }
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 8rem 0 8rem;
+}
+.menu-list li{
+    text-decoration: none;
+    list-style-type: none;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(80, 77, 77);
+}
+
+.menu-list li .title{
+    font-size:22px;
+    font-weight: 500;
+}
+.menu-list li p{
+    margin: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+.img img{
+    float: right;
+    padding: 0.3rem;
+    border-radius: 1.3rem ;
+    height: 10rem;
+    width: 10rem;
+}

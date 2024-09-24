@@ -4,7 +4,7 @@
   "description": "it's my foundation to react",
   "main": "app.js",
   "scripts": {
-    "start":"parcel index.html",
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "satish",
@@ -12,7 +12,8 @@
   "dependencies": {
     "parcel": "^2.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "process": "^0.11.10"
