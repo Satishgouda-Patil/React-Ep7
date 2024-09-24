@@ -1,2 +1,3 @@
 # Learning with project
-    Exploring the world
+    - finding the path
+    - deatils about each restorant
